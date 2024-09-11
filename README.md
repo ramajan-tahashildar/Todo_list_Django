@@ -3,6 +3,15 @@
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
+create virtual environment
+```bash
+$ python -m venv todo_venv
+```
+activate script
+```bash
+todo_venv/scripts/activate
+```
+ make migration 
 ```bash
 $ python manage.py makemigrations
 ```
